@@ -1,1 +1,6 @@
-
+# Configuration for CIFAR-10 image classification
+dataset: "cifar10"
+seed: 42              # Random seed for reproducibility
+epochs: 50            # Number of training epochs
+batch_size: 64        # Batch size for training
+learning_rate: 0.001  # Learning rate for optimizer
