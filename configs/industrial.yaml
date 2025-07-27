@@ -1,0 +1,6 @@
+# Configuration for industrial asset prediction
+dataset: "industrial"
+seed: 42
+epochs: 50
+batch_size: 64
+learning_rate: 0.005

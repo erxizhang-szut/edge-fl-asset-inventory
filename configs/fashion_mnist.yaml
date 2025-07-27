@@ -1,0 +1,6 @@
+# Configuration for Fashion-MNIST classification
+dataset: "fashion_mnist"
+seed: 42
+epochs: 30
+batch_size: 128
+learning_rate: 0.001

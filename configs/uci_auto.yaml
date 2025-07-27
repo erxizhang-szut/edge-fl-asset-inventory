@@ -1,0 +1,6 @@
+# Configuration for UCI Auto regression
+dataset: "uci_auto"
+seed: 42
+epochs: 100           # More epochs for regression task
+batch_size: 32
+learning_rate: 0.01   # Higher learning rate for regression

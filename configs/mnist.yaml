@@ -1,0 +1,6 @@
+# Configuration for MNIST digit recognition
+dataset: "mnist"
+seed: 42
+epochs: 20            # Fewer epochs needed for simple dataset
+batch_size: 128       # Larger batch size possible
+learning_rate: 0.001
