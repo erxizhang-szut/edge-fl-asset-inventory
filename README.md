@@ -3,6 +3,7 @@ asset-inventory system
 
 Experiment Workflow
 #1.Prepare Datasets:
+
 #Create dataset directories
 
 mkdir -p datasets/{cifar10,uci_auto,mnist,fashion_mnist,industrial} # Run the main experiment (will download standard datasets automatically)
