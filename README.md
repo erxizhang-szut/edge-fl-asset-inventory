@@ -12,12 +12,16 @@ python src/fl_experiment.py
 python -c "from src.data_loader import MultiDatasetLoader; \
            loader = MultiDatasetLoader('industrial', 'datasets/industrial'); \
            loader._load_industrial()"
+           
 2.Run Experiments:
+
 # Run all experiments sequentially
 python src/fl_experiment.py
 # Or run individual dataset experiment
 python src/fl_experiment.py --config configs/cifar10.yaml
+
 3.Analyze Results:
+
 Results are saved in timestamped directories under results/
 Each directory contains:
   Training loss curve
